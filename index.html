@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>𝓛é𝓻𝓲𝓪𝓯𝓸𝓸𝓭 🍽️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #a1c4fd);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
+      color: #333;
+      padding: 0;
+    }
+
+    @keyframes gradient {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    header {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .emoji {
+      position: fixed;
+      font-size: 24px;
+animation: float 5s infinite;
+      pointer-events: none;
+    }
+
+    @keyframes float {
+      0% {transform: translateY(0);}
+      50% {transform: translateY(-20px);}
+      100% {transform: translateY(0);}
+    }
+
+    .admin-section, .site-content {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    textarea, input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    button {
+      background: #ff6600;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    #login {
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    #gallery img {
+      max-width: 100%;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Emojis flottants -->
+  <div class="emoji" style="top: 20px; left: 10px;">🍴</div>
+  <div class="emoji" style="bottom: 20px; right: 10px;">🥄</div>
+  <div class="emoji" style="top: 50%; right: 10px;">🍳</div>
+  <div class="emoji" style="bottom: 30%; left: 20px;">🍽️</div>
+
+  <header>𝓛é𝓻𝓲𝓪𝓯𝓸𝓸𝓭 🍽️ </header>
+
+  <!-- Login -->
+  <div id="login">
+    <h3>Connexion administrateur</h3>
